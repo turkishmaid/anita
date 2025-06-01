@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anita"
+version = "0.1.0"
+authors = [
+  { name = "turkishmaid", email = "45335117+turkishmaid@users.noreply.github.com" },
+]
+description = "A cooperative library of reusable Python stuff."
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "setuptools",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/turkishmaid/anita"
+"Bug Tracker" = "https://github.com/turkishmaid/anita/issues"
+
+[tool.setuptools]
+packages = ["anita"]
+
+[tool.setuptools.package-dir]
+anita = "anita"

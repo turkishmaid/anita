@@ -1,0 +1,25 @@
+{
+    "todo-tree.tree.scanMode": "workspace only",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "terminal.integrated.scrollback": 5000,
+    "pylint.ignorePatterns": [
+        "adhoc*.py"
+    ],
+    "[python]": {
+        "editor.defaultFoldingRangeProvider": "charliermarsh.ruff",
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "files.autoSave": "onFocusChange"
+    },
+    "makefile.configureOnOpen": false,
+    "editor.lineNumbers": "relative",
+    "python.analysis.typeCheckingMode": "standard",
+    "chat.agent.enabled": true,
+}

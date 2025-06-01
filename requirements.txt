@@ -1,0 +1,37 @@
+# airium
+# beautifulsoup4
+# click
+# concurrent-log-handler
+# deprecated
+# docopt-ng
+# flask>=3
+# google-api-python-client
+# ipykernel
+# ipywidgets
+# jsonpath-ng
+# matplotlib
+# pandas
+# Pillow
+# # pixi
+# pprintpp
+# pyexiftool
+# pyfiglet
+# pymongo
+# pyopenssl
+# python-dateutil
+# pytz
+# pyyaml
+# requests
+# responses
+# ruff
+# scipy
+setuptools
+# tweepy
+# tomlkit
+
+# ttkbootstrap
+# git+https://github.com/israel-dryer/ttkbootstrap
+
+# wordcloud
+# yagmail
+# git+https://github.com/FlyingWolFox/Netscape-Bookmarks-File-Parser.git

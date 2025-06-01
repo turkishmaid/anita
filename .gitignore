@@ -1,3 +1,13 @@
+.DS_Store
+local/
+.idea/
+venv/
+
+# GitHub Python default follows ...
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
