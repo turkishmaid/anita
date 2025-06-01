@@ -1,4 +1,4 @@
-"""A cooperative library of reusable Python stuff."""
+"""anita - A cooperative library of reusable Python stuff."""
 
 from .notascript import not_a_script, not_an_app
 from .timer import Timer
