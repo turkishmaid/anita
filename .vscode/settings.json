@@ -16,10 +16,11 @@
     "[python]": {
         "editor.defaultFoldingRangeProvider": "charliermarsh.ruff",
         "editor.defaultFormatter": "charliermarsh.ruff",
-        "files.autoSave": "onFocusChange"
+        "files.autoSave": "onFocusChange",
     },
     "makefile.configureOnOpen": false,
     "editor.lineNumbers": "relative",
     "python.analysis.typeCheckingMode": "standard",
     "chat.agent.enabled": true,
+    "python.defaultInterpreterPath": "/Users/dirk/clonezoo/github/turkishmaid/anita/venv/bin/python",
 }

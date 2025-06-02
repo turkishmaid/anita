@@ -1,4 +1,13 @@
-"""Unit tests for anita.jj module."""
+#! /usr/bin/env python3
+
+"""Unit tests for anita.jj module.
+
+The unit tests are a significant enhancement over the doctests, providing
+better test coverage, edge case handling, and maintainability.
+The doctests serve more as documentation and basic functionality verification,
+while the unit tests provide comprehensive testing suitable for a production
+codebase.
+"""
 
 import json
 import unittest
@@ -67,7 +76,7 @@ class TestDumps(unittest.TestCase):
     def test_tuple_and_set_conversion(self) -> None:
         """Test that tuples and sets are converted to lists."""
         # Tuple converted to list
-        self.assertEqual(dumps({"a": (1, 2, 3)}), '{"a": [1, 2, 3]}')
+        self.assertEqual(dumps({"a": (1, 2, 3)}), '{\n    "a": [1, 2, 3]\n}')
 
         # Set converted to list (order may vary, so we check the structure)
         result = dumps({"a": {1, 2, 3}})

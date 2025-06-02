@@ -16,3 +16,26 @@ from .dating import (
 )
 from .jj import jpath, Accessor, dumps
 from .util import only_fields_like
+
+# needed to make VSCode recognize `from anita import ...` imports
+__all__ = [
+    "Accessor",
+    "Timer",
+    "check_date",
+    "date62",
+    "datetime_from_date",
+    "dumps",
+    "from_sara_date",
+    "full_stack",
+    "jpath",
+    "log_df",
+    "log_exception",
+    "not_a_script",
+    "not_an_app",
+    "number62",
+    "only_fields_like",
+    "sara_date",
+    "split_seconds",
+    "utcage",
+    "utcnow",
+]
